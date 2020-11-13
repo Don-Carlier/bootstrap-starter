@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "header.css",
+	"sources": [
+		"../../../scss/custom/header.scss"
+	],
+	"sourcesContent": [
+		".header {\n    ul, ul li {\n        list-style: none;\n    }\n\n    .menu {\n        &__item {\n\n        }\n    }\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AACI,OADG,CACH,EAAE,CADN,OAAO,CACC,EAAE,CAAC,EAAE,AAAC,CACN,UAAU,CAAE,IAAI,CACnB"
+}

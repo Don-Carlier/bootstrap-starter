@@ -1,0 +1,32 @@
+@import "./vars.scss";
+
+.btn {
+    border-radius: 5rem;
+    border: 2px solid $sea-pink;
+
+    &__primary {
+        color: white;
+        background: $sea-pink;
+        
+        &:active,
+        &:focus,
+        &:hover {
+            background: $sea-pink-hover;
+        }
+
+        &:active {
+            color: black;
+        }
+    }
+
+    &__secondary {
+        background: transparent;
+        color: black;
+        
+        &:active,
+        &:focus,
+        &:hover {
+            background: $sea-pink-hover;
+        }
+    }
+}

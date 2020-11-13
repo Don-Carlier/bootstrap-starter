@@ -1,27 +1,13 @@
-// Override Bootstrap's Sass default variables
-//
-// Nearly all variables in Bootstrap are written with the `!default` flag.
-// This allows you to override the default values of those variables before
-// you import Bootstrap's source Sass files.
-//
-// Overriding the default variable values is the best way to customize your
-// CSS without writing _new_ styles. For example, change you can either change
-// `$body-color` or write more CSS that override's Bootstrap's CSS like so:
-// `body { color: red; }`.
-
-
-//
-// Override Bootstrap here
-//
 
 // Toggle global options
 $enable-gradients: true;
 $enable-shadows: true;
 
 // Customize some defaults
-$body-color: purple;
-$body-bg: #f5f5f5;
-$border-radius: .4rem;
+$body-color: #000000;
+
+$border-radius: .3rem;
+ 
 
 
 //
@@ -51,15 +37,15 @@ $border-radius: .4rem;
 // @import "bootstrap/scss/forms";
 @import "bootstrap/scss/buttons";
 @import "bootstrap/scss/transitions";
-// @import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/dropdown";
 // @import "bootstrap/scss/button-group";
 // @import "bootstrap/scss/input-group"; // Requires forms
 // @import "bootstrap/scss/custom-forms";
-// @import "bootstrap/scss/nav";
-// @import "bootstrap/scss/navbar"; // Requires nav
+ @import "bootstrap/scss/nav";
+ @import "bootstrap/scss/navbar"; // Requires nav
 // @import "bootstrap/scss/card";
 // @import "bootstrap/scss/breadcrumb";
-// @import "bootstrap/scss/pagination";
+// @import "bootstrap/scss/pagination"; 
 // @import "bootstrap/scss/badge";
 // @import "bootstrap/scss/jumbotron";
 // @import "bootstrap/scss/alert";
@@ -76,6 +62,10 @@ $border-radius: .4rem;
 @import "bootstrap/scss/utilities";
 // @import "bootstrap/scss/print";
 
+//CUSTOM CSS
+@import "./custom/buttons.scss";
+@import "./custom/header.scss";
+@import "./custom/projects.scss";
 
 
 //
@@ -90,3 +80,9 @@ body {
 .bi {
   fill: currentColor;
 }
+
+
+//Checking layout
+// * {
+//   border: 1px solid black;
+// }

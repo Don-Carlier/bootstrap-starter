@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "projects.css",
+	"sources": [
+		"../../../scss/custom/projects.scss"
+	],
+	"sourcesContent": [
+		".projects {\n    img {\n        border-radius: 50%;\n    }\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AACI,SADK,CACL,GAAG,AAAC,CACA,aAAa,CAAE,GAAG,CACrB"
+}

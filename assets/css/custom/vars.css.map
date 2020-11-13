@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "vars.css",
+	"sources": [
+		"../../../scss/custom/vars.scss"
+	],
+	"sourcesContent": [
+		"$body-bg: #f5f5f5;\n$sea-pink: #EF9D9C;\n$sea-pink-hover: #eebdbd;\n$rose-bud:#FCC3A2;\n$peach-yellow: #F9E3B2;\n$cinderella: #FCD2CA;"
+	],
+	"names": [],
+	"mappings": ""
+}

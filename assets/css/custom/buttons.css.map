@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "buttons.css",
+	"sources": [
+		"../../../scss/custom/buttons.scss",
+		"../../../scss/custom/vars.scss"
+	],
+	"sourcesContent": [
+		"@import \"./vars.scss\";\n\n.btn {\n    border-radius: 5rem;\n    border: 2px solid $sea-pink;\n\n    &__primary {\n        color: white;\n        background: $sea-pink;\n        \n        &:hover {\n            background: $sea-pink-hover;\n        }\n\n        &:active {\n            color: black;\n        }\n    }\n\n    &__secondary {\n        background: transparent;\n        color: black;\n        \n        &:hover {\n            background: $sea-pink-hover;\n        }\n    }\n}\n",
+		"$body-bg: #f5f5f5;\n$sea-pink: #EF9D9C;\n$sea-pink-hover: #eebdbd;\n$rose-bud:#FCC3A2;\n$peach-yellow: #F9E3B2;\n$cinderella: #FCD2CA;"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,IAAI,AAAC,CACD,aAAa,CAAE,IAAI,CACnB,MAAM,CAAE,GAAG,CAAC,KAAK,CCHV,OAAO,CD0BjB,AArBI,AAAD,aAAU,AAAC,CACP,KAAK,CAAE,KAAK,CACZ,UAAU,CCPP,OAAO,CDgBb,AAXA,AAIG,aAJM,AAIL,MAAM,AAAC,CACJ,UAAU,CCTL,OAAO,CDUf,AANJ,AAQG,aARM,AAQL,OAAO,AAAC,CACL,KAAK,CAAE,KAAK,CACf,AAGJ,AAAD,eAAY,AAAC,CACT,UAAU,CAAE,WAAW,CACvB,KAAK,CAAE,KAAK,CAKf,AAPA,AAIG,eAJQ,AAIP,MAAM,AAAC,CACJ,UAAU,CCtBL,OAAO,CDuBf"
+}

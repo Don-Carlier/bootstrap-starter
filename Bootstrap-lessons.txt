@@ -1,0 +1,25 @@
+TAKEN STEPS:
+
+- Downloaded NPM starter and runned npm i
+- changed some SCSS
+- Tried to run server, so far without luck (investigation needed)
+- Installed Grunt for watching LESS/SCSS files
+- Fired up NPM run, seems like it's watching css now...
+- double check :
+[nodemon] app crashed - waiting for file changes before starting...
+
+npm run watch: watched
+
+
+- NPM RUN SERVER: fires away localhost:3000
+
+Questions:
+1. Do we leave all the bootstrap classes like they are? Guess so.
+- Purely to distinguise bootstrap from our own css
+
+Get elements/components from Bootstrap site.
+After that turn on accomponying css/js
+Dropdown for dropdowns etc.
+Popper.js is also used for the dropdown elements 
+
+

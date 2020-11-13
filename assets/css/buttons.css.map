@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "buttons.css",
+	"sources": [
+		"../../scss/buttons.scss"
+	],
+	"sourcesContent": [
+		".btn {\n    background: transparent;\n    border: 4px;\n\n\n    &__primary {\n        border:2px solid black;\n    }\n\n    &__secondary {\n        border:2px solid green;\n    }\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,AAAC,CACD,UAAU,CAAE,WAAW,CACvB,MAAM,CAAE,GAAG,CAUd,AAPI,AAAD,aAAU,AAAC,CACP,MAAM,CAAC,eAAe,CACzB,AAEA,AAAD,eAAY,AAAC,CACT,MAAM,CAAC,eAAe,CACzB"
+}
